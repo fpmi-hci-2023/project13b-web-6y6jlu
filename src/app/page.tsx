@@ -1,11 +1,8 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import BookCard from '@/components/BookCard/bookCard'
+import Image from "next/image";
+import styles from "./page.module.css";
+
+import { BookCard } from "@/components";
 
 export default function Home() {
-  return (
-    <BookCard>
-      lslslslsl
-    </BookCard>
-    )
+  return <BookCard name="Galileo" />;
 }
