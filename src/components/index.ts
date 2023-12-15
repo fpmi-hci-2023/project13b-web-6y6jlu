@@ -6,3 +6,4 @@ export * from "./Search";
 export * from "./BookInfoSection";
 export * from "./ReviewCard";
 export * from './BookReviewStartCard';
+export * from "./CollectionCard";
