@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.rating {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+}

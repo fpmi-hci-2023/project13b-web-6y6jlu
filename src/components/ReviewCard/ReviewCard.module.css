@@ -1,0 +1,39 @@
+.card {
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.title {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: black;
+}
+
+.rating {
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 12px;
+  color: black;
+}
