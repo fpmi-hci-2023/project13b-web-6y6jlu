@@ -4,12 +4,9 @@ import { FC } from "react";
 import style from "./ReviewCard.module.css";
 import classNames from "classnames";
 import { Poppins } from "@/fonts";
+import { IReview } from "@/types";
 
-export interface ReviewCardProps {
-  name: string;
-  rating: number;
-  description: string;
-}
+export interface ReviewCardProps extends IReview {}
 
 export const ReviewCard: FC<ReviewCardProps> = ({
   name,
