@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# forWORDS
 
-## Getting Started
+## Description
+forWORDS is an application for tracking books, with the ability to rate books, create a reading list, and track books read by friends. It also allows users to write, read and comment book reviews.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
+To install the application, follow these steps:
+Firstly, to install our application locally, you can go to our Github repository and install application. 
+Go to the project folder.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Sub modules
+[forWORDS Web](https://github.com/fpmi-hci-2023/project13b-web-6y6jlu) - a web interface for managing books and tracking reading progress.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[forWORDS Mobile](https://github.com/fpmi-hci-2023/project13b-mobile-6y6jlu) - a mobile application for tracking books and reading reviews.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
+After installing the application, you can use it as follows
+1. Sign up or log in
+2. Add books from menu page
+3. Add books to "To read", "Finished", "Reading"
+4. Add collections or create your own collections
+5. Read and write reviews for the books
+6. Rate books
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Lab reports
+[Lab report №1](https://docs.google.com/document/d/1ALxdqEXlY4uSspoAyOJBUhMoOzBxHiOC/edit?usp=sharing&ouid=106195580385176481462&rtpof=true&sd=true)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Lab report №2](https://docs.google.com/document/d/15A_NINQVEf6_fwhz1EfftzEakHzGPSvlU-zRlgx5_Us/edit?usp=sharing)
 
-## Deploy on Vercel
+[Lab report №3](https://docs.google.com/document/d/1K_lcVpipbTlwFrvDq51MwdixZYLDBe8aslZusS8a-qo/edit)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Lab report №4](https://docs.google.com/document/d/1FfyYQut7dLLqEgk-6Iq5cldRtkA-RBz_NnJib7hr5mQ/edit)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Lab report №5](https://docs.google.com/document/d/1yOdonhqF04G0g5MUMHRWZc889ZDKO3oVO8pB35pozf0/edit)
+
+[Lab report №6](https://docs.google.com/document/d/1MtTv6xo5WcFdb3q8ic94AXVisH_GN5wuu13B3AOBzvE/edit?usp=sharing)
+
+[Lab report №7](https://docs.google.com/document/d/1yt4s8MLxUxnOxK-_PYhQTTo1g8l29MgKaHuFOaJ4Mlw/edit?usp=sharing)
+
+
+
+## Contributing
+[Tatsiana Lazovskaya](https://github.com/tanyalzvsk) 
+
+[Yaroslav Ryzhkov](https://github.com/Creator674) 
+
+[Juliet Drozdova](https://github.com/julliettee) 
+
+[Alexander Soroka](https://github.com/depravo)
