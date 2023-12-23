@@ -1,33 +1,39 @@
 "use client";
 
-import { FC, useCallback } from "react";
+import { FC, useCallback, useMemo } from "react";
 import style from "./BookCard.module.css";
 import { IBook } from "@/types";
 import { Poppins } from "@/fonts";
 import classNames from "classnames";
 import { useRouter } from "next/navigation";
+import { generateRandomColor } from "@/utils";
 
 export interface BookCardProps extends IBook {
   backgroundColor?: string;
 }
 
 export const BookCard: FC<BookCardProps> = ({
-  id,
+  book_id,
   name,
   author,
-  description,
+  annotation,
   backgroundColor = "",
 }) => {
   const router = useRouter();
 
   const handleBookClick = useCallback(() => {
-    router.replace(`/book/${id}`);
-  }, [router, id]);
+    router.replace(`/book/${book_id}`);
+  }, [router, book_id]);
+
+  const bgColor: string = useMemo(() => {
+    // return generateRandomColor() + '66';
+    return generateRandomColor();
+  }, []);
 
   return (
     <div
       className={style.card}
-      style={{ backgroundColor }}
+      style={{ backgroundColor: backgroundColor ? backgroundColor : bgColor }}
       onClick={handleBookClick}
     >
       <div className={style.cardHeader}>
@@ -43,7 +49,7 @@ export const BookCard: FC<BookCardProps> = ({
       </div>
 
       <p className={classNames(style.description, Poppins.className)}>
-        {description}
+        {annotation}
       </p>
     </div>
   );

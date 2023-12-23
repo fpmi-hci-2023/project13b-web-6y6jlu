@@ -182,8 +182,8 @@ export const books: IBook[] = [
 export const collections: ICollection[] = [
   {
     id: 1,
-    title: 'My Caol',
-    author: 'Tanya',
+    title: "My Caol",
+    author: "Tanya",
     books: [
       {
         id: 5,
@@ -208,6 +208,51 @@ export const collections: ICollection[] = [
         description:
           "An epic fantasy trilogy that chronicles the journey of a group of characters to destroy a powerful ring and save Middle-earth.",
         rating: 4.9,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "bububu",
+    author: "bububu",
+    books: [
+      {
+        id: 22,
+        name: "The Da Vinci Code",
+        author: "Dan Brown",
+        description:
+          "A thrilling mystery novel that follows a symbologist and a cryptologist as they unravel clues and secrets to solve a centuries-old mystery.",
+        rating: 4.3,
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "bububu",
+    author: "bububu",
+    books: [
+      {
+        id: 22,
+        name: "The Da Vinci Code",
+        author: "Dan Brown",
+        description:
+          "A thrilling mystery novel that follows a symbologist and a cryptologist as they unravel clues and secrets to solve a centuries-old mystery.",
+        rating: 4.3,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "bububu",
+    author: "bububu",
+    books: [
+      {
+        id: 22,
+        name: "The Da Vinci Code",
+        author: "Dan Brown",
+        description:
+          "A thrilling mystery novel that follows a symbologist and a cryptologist as they unravel clues and secrets to solve a centuries-old mystery.",
+        rating: 4.3,
       },
     ],
   },

@@ -5,7 +5,7 @@ import { useCallback, useState } from "react";
 
 import style from "./page.module.css";
 
-import background from "../../../public/page-background-main.png";
+import background from "../../../public/page-background-login.png";
 import classNames from "classnames";
 import { Poppins } from "@/fonts";
 import { useRouter } from "next/navigation";

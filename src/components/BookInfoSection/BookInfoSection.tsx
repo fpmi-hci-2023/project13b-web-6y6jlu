@@ -11,7 +11,7 @@ export interface BookInfoSectionProps extends IBook {}
 export const BookInfoSection: FC<BookInfoSectionProps> = ({
   name,
   author,
-  rating,
+  rate,
 }) => {
   return (
     <div className={style.section}>
@@ -22,7 +22,7 @@ export const BookInfoSection: FC<BookInfoSectionProps> = ({
         </p>
       </div>
 
-      <p className={classNames(style.rating, Poppins.className)}>{rating}.0</p>
+      <p className={classNames(style.rating, Poppins.className)}>{rate}</p>
     </div>
   );
 };
